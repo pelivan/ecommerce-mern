@@ -1,0 +1,23 @@
+-Napraviti API!
+-sloziti bazu
+-napraviti signup
+-napraviti ispravan login
+-napraviti admin profil???
+-dodati kategorije
+-napraviti CRUD
+-napraviti filtere i sort!
+
+REACT
+
+-menu
+-sign in/up
+-admin/user odvojiiti
+-napraviti proizvode i kategorije
+-filter i sort
+-pregled jednog
+-napraviti shopping cart
+-dodati proizvod u cart
+-dodati vise proizvoda ka +/-
+-maknuti proizvod iz carta
+-prikazati totalne
+-checkout??? (neznam kako cu majke mi)
