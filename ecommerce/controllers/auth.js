@@ -26,8 +26,8 @@ exports.signin = (req,res) => {
     const {email,password} = req.body
     User.findOne({email}, (err,user) => {
         if(err|| !user){
-            return res.status(400).json({
-                err: 'User with that E-mail does not exist!'
+            return res.status(401).json({
+                error: 'User with that E-mail does not exist!'
             });
         }
         //if user is found make sure email and passwords do match
