@@ -38,7 +38,7 @@ exports.create = (req,res) => {
         if(!name || !description || !price || !category || !quantity || !shipping)
         {
             return res.status(400).json({
-                error:"All fields are required!"
+                error:"All fields are requireed!"
             });
         }
         let product = new Product(fields)
@@ -51,7 +51,7 @@ exports.create = (req,res) => {
         product.save((err,result) => {
             if(err){
                 return res.status(400).json({
-                    error: errorHandler(err)
+                    error: "Nope"
                 });
             }
             res.json(result);

@@ -8,7 +8,7 @@ const {userById} = require('../controllers/user');
 router.get('/product/:productId',read);
 //method
 
-router.post('/product/create:userId',requireSignin,isAuth,isAdmin,create);
+router.post('/product/create/:userId',requireSignin,isAdmin,create);
 router.delete('/product/:productId/:userId',requireSignin,isAuth,isAdmin, remove);
 
 router.put('/product/:productId/:userId',requireSignin,isAuth,isAdmin, update);
